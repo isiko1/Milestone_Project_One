@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat:100,200,300,400,500,600,700|Tinos,100,200,300,400,500,600,700');
+
+.bg-color-name-title {
+    background-color: #b5abab;
+}
+header {
+    margin: 0;
+}
+
+.logo {
+    background-image: url("../images/eu.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.logo:hover {
+    background-image: url("../images/uk.jpg");
+    background-size: cover;
+    min-height: 360px;
+    margin: 0;
+    animation-name: appearing;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: cover;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes appearing {
+    from {
+        height: 0;
+    }
+    to {
+        height: 360px;
+    }
+}
+.bg-color-name-title
