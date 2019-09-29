@@ -1,10 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat:100,200,300,400,500,600,700|Tinos,100,200,300,400,500,600,700');
 
+/*---------Style---------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general {
+    font-family: "Tinos", sans-serif;
+    color: #fff;
+}
+
 /*................backgoundcolor*/
 
 .bg-color-name-title {
     background-color: #b5abab;
-    }
+}
 
 .menu-color-home {
     background-color: #ffc107;
@@ -21,7 +40,9 @@
 .menu-color-article {
     background-color: rgba(0, 123, 255, .25);
 }
+
 /*-------------------Header-----------------*/
+
 header {
     margin: 0;
 }
@@ -37,19 +58,32 @@ header {
     -o-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
- /*----------------------------------.logo 2 {
-.logo-2 {
-   
+
+.logo-uk {
     background-image: url("../images/uk.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    transition-duration: 1s;
-    transition-timing-function: ease-in;
-    transform: smooth;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
     
-}}--------------------------------------------*/
+}
 
+.logo-euk {
+    background-image: url("../images/flag.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 120px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    
+}
 .title {
     font-family: Tinos, sans-serif;
     font-weight: 300;
@@ -71,6 +105,7 @@ header {
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
+
 /*---------------Menu Items-----------------*/
 
 .menucontainer {
@@ -117,9 +152,58 @@ header {
 
 /*------------------------------------hover-----*/
 
+.hvr-sweep-to-right:before {
+    background-color: #9fecb1;
+    transition-timing-function: ease-in;
+    transition-delay: 0.1s;
+}
 
-    .hvr-sweep-to-right:before {
-        background-color: #9fecb1;
-        transition-timing-function: ease-in;
-        transition-delay: 2s;
-    }
+footer {
+    background-color: #adb5bd;
+    min-height: 120px;
+    color: #495057;
+    margin: 0;
+}
+
+.art-pdf i {
+    font-size: 18px;
+    color: #dc3545;
+    text-align: center;
+    padding-left: 5px;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.art-pdf i:hover {
+    color: rgba(0, 123, 255, .25);
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #004085;
+    background-color: #687d90;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.social-links li a i:hover {
+    background: #dc3545;
+}
+
+#footer-details {
+    padding: 20px;
+
+}
