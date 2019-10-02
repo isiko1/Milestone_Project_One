@@ -8,7 +8,7 @@ h3,
 h4,
 h5 {
     margin: 0;
-}
+    }
 
 .uppercase {
     text-transform: uppercase;
@@ -18,11 +18,20 @@ h5 {
     font-family: "Tinos", sans-serif;
     color: #fff;
 }
+.institutions-item {
+    font-size: 26px;
+    font-weight: 300;
+}
 
 /*................backgoundcolor*/
 
-.bg-color-name-title {
+.bg-color-institutions {
     background-color: #b5abab;
+}
+
+
+.bg-color-name-title  {
+    background-image: url("../images/europe.jpg")
 }
 
 .menu-color-home {
@@ -87,16 +96,17 @@ header {
 
 .title {
     font-family: Tinos, sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 3rem;
     margin-top: 2rem;
-    color: #fff;
+    color: #b5abab;
     padding-left: 20px;
 }
 
+
 .subtitle {
     font-family: Caveat, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 3rem;
     margin-bottom: 2rem;
     color: #dc3545;
@@ -155,11 +165,14 @@ header {
     margin-top: 10px;
     margin-bottom: 15px;
     font-family: "Caveat", sans-serif;
+    font-weight: 300;
+    color: #343a40;
 }
 
 .members-heading {
     font-family: "Tinos", sans-serif;
     font-size: 18px;
+    
 }
 
 .paragraph-contents {
@@ -175,14 +188,14 @@ header {
 }
 
 footer {
-    background-color: #adb5bd;
+    background-color: #687d90;
     min-height: 120px;
-    color: #495057;
+    color:#fff;
     margin: 0;
 }
 
 .art-pdf i {
-    font-size: 18px;
+    font-size: 26px;
     color: #dc3545;
     text-align: center;
     padding-left: 5px;
@@ -204,7 +217,7 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 26px;
     line-height: 7px;
     text-align: center;
     color: #004085;
