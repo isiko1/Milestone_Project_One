@@ -26,7 +26,7 @@ h5 {
 /*................backgoundcolor*/
 
 .bg-color-institutions {
-    background-color: #b5abab;
+    background-color: #ced2d6;
 }
 
 
@@ -97,7 +97,7 @@ header {
 .title {
     font-family: Tinos, sans-serif;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 5rem;
     margin-top: 2rem;
     color: #b5abab;
     padding-left: 20px;
@@ -171,12 +171,13 @@ header {
 
 .members-heading {
     font-family: "Tinos", sans-serif;
-    font-size: 18px;
+    font-size: 22px;
+    margin-bottom: 15px;
     
 }
 
 .paragraph-contents {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 /*------------------------------------hover/footer-----*/
@@ -244,5 +245,21 @@ footer {
     color: #ffc107;
 }
 
-.members-heading {
-    margin-bottom: 15px;
+/*--------------------Votes----------*/
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+    
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color:#dc3545;
+    background-color: #17a2b829;
+}
+
