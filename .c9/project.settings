@@ -20,7 +20,15 @@
     "run": {
         "configs": {
             "@inited": "true",
-            "json()": {}
+            "json()": {
+                ":": {
+                    "command": "info/css/style.css",
+                    "env": {},
+                    "name": ":",
+                    "runner": "Shell command",
+                    "toolbar": true
+                }
+            }
         }
     },
     "welcome": {
