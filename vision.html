@@ -19,7 +19,7 @@
             </a>
             <div class="col-md-8">
                 <div class="row no-gutters bg-color-name-title">
-                    <div class="col heading">
+                    <div class="col heading bg-pic">
                         <h1 class="title">Brexit</h1>
                         <h3 class="subtitle">An unfortunate Journey</h3>
                     </div>
@@ -28,16 +28,16 @@
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="col-6 col-sm-3 menu-color-home list-inline-item menu-item">
-                                <a href="#" class="hvr-sweep-to-right"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                                <a href="index.html" class="hvr-sweep-to-right"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
                             <li class="col-6 col-sm-3 menu-color-overview list-inline-item menu-item">
-                                <a href="#" class="hvr-sweep-to-right"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Overview</span></a>
+                                <a href="overview.html" class="hvr-sweep-to-right"><i class="fa fa-info-circle" aria-hidden="true"></i><span>Overview</span></a>
                             </li>
                             <li class="col-6 col-sm-3 menu-color-vision list-inline-item menu-item">
-                                <a href="#" class="hvr-sweep-to-right"><i class="fa fa-binoculars" aria-hidden="true"></i><span>Vision</span></a>
+                                <a href="vision.html" class="hvr-sweep-to-right"><i class="fa fa-binoculars" aria-hidden="true"></i><span>Vision</span></a>
                             </li>
                             <li class="col-6 col-sm-3 menu-color-article list-inline-item menu-item">
-                                <a href="#" class="hvr-sweep-to-right"><i class="fa fa-download" aria-hidden="true"></i><span>Article 50</span></a>
+                                <a href="info/art/art.pdf" target=_blank" class="hvr-sweep-to-right"><i class="fa fa-download" aria-hidden="true"></i><span>Article 50</span></a>
                             </li>
                         </ul>
                     </div>
@@ -48,12 +48,33 @@
             </div>
 
     </header>
-    <section>
+    <section class="container-fluid ">
+        <div class="row bg-color-vision">
+            <div class="col">
+                <h3 class="vision-heading uppercase text-center">What is your vision of the future?</h3>
+                <h4 class="uppercase text-center">Share your views.</h4>
+                
+                <div class="center-form ">
+                    <form>
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+                        <input type="submit" value="Submit" />
+                        <input type="text" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                        <input type="submit" value="Submit" />
+                        <textarea rows="5" name="shareview" id="shareview" class="form-control" placeholder="Share View" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Your View</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-            <div class="col-sm-4 bg-pic">
+            <div class="col-sm-4">
                 <h5 class="uppercase general">About</h5>
                 <p class="inline-block">On 29 March 2017, the United Kingdom (UK) invoked Article 50 of the Treaty on European Union (TEU) which began the member state's withdrawal.</p>
             </div>
@@ -61,7 +82,7 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general">Download</h5>
                 <p class="inline-block">Article 50 explained? Download the EU Parliamentary Research Service briefing here.</p>
-                <a href="" target="_blank" class="art-pdf">
+                <a href="info/art/art.pdf" target="_blank" class="art-pdf">
             <i class="fa fa-download" aria-hidden="true"></i>
             <span class="sr-only">Download link.</span>
             </a>

@@ -57,6 +57,9 @@ h5 {
 .bg-pic {
     background-image: url("../images/pm.jpg")
 }
+.bg-over {
+    background-image: url("../images/eu.jpg")
+}
 
 /*-------------------Header-----------------*/
 
@@ -257,8 +260,8 @@ footer {
 
 .progress {
     position: relative;
-    height: 25px;
-    margin-bottom: 4px;
+    height: 30px;
+    margin-bottom: 20px;
 
 }
 
@@ -277,7 +280,7 @@ footer {
 }
 
 .timeline-item {
-    padding: 4em 2em 0em 2em;
+    padding: 2em 2em 0em 2em;
     position: relative;
     color: #fff;
     border-left: 1px solid;
@@ -292,7 +295,7 @@ footer {
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
-    top: 3em;
+    top: 1em;
     display: block;
     font-family: "Tinos", sans-serif;
     font-weight: 500;
@@ -304,10 +307,38 @@ footer {
     width: 12px;
     height: 12px;
     display: block;
-    top: 2.4em;
+    top: 1em;
     position: absolute;
     left: -6px;
-    border-radius: 12p;
+    border-radius: 12px;
     content: " ";
     background-color: #fff;
+}
+
+.vision-heading {
+    font-family: "Tinos", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.center-form {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color:#dc3545;
+    background-color: #6c737d36;
+}
+
+@media(min-width: 992px) {
+    .center-form {
+    padding: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
 }
