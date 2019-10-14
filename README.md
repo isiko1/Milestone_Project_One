@@ -69,3 +69,4 @@ Channel 4 News,Google , Politico EU.
 Acknowlegements
 
 I was inspired by The Rosie mini-project for the lay out and structure which combined, has allowed me to utilise some of the coding and manipulate it to reach my desired outcome. Further inspiration has come from the CSS transitions modules of the course.
+# Milestone_Project_One
