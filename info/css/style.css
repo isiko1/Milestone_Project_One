@@ -2,12 +2,27 @@
 
 /*-----------------------paragraphs/text/Style---------------------------------------------*/
 
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #e9ecef;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5 {
     margin: 0;
+}
+
+.title {
+    font-weight: 200;
 }
 
 .uppercase {
@@ -26,16 +41,34 @@ h5 {
 
 /*................--------------------backgoundcolor/Style-------------------*/
 
-.bg-color-institutions {
-    background-color: #ced2d6;
+.bg-pic {
+    background-image: url("../images/pm.jpg");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.bg-over {
+    background-image: url("../images/eu.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.bg-color-institutions,
+.bg-color-members {
+    background-color: #f8f9fa;
+    width: 100%;
 }
 
 .bg-color-history {
-    background-color: #007bff;
+    background-color: #f8f9fa;
 }
 
 .bg-color-name-title {
-    background-image: url("../images/europe.jpg")
+    background-image: url("../images/europe.jpg");
+    object-fit: cover; 
+    background-repeat: no-repeat; 
 }
 
 .menu-color-home {
@@ -54,12 +87,6 @@ h5 {
     background-color: rgba(0, 123, 255, .25);
 }
 
-.bg-pic {
-    background-image: url("../images/pm.jpg")
-}
-.bg-over {
-    background-image: url("../images/eu.jpg")
-}
 
 /*-----------------------------------------------Header-----------------*/
 
@@ -110,7 +137,7 @@ header {
     font-weight: 600;
     font-size: 5rem;
     margin-top: 2rem;
-    color: #b5abab;
+    color: #e8e570e0;
     padding-left: 20px;
 }
 
@@ -122,6 +149,11 @@ header {
     margin-bottom: 2rem;
     color: #dc3545;
     padding-left: 20px;
+}
+
+.subtitle-vision {
+    padding-top: 20px;
+    
 }
 
 .list-inline-item:not(:last-child) {
@@ -189,6 +221,8 @@ header {
 
 .paragraph-contents {
     font-size: 18px;
+    background-color: #f8f9fa;
+
 }
 
 /*------------------------------------hover/footer-----------------------------------*/
@@ -257,17 +291,19 @@ footer {
     font-size: 26px;
     color: #ffc107;
 }
+
 .members-icon {
     font-size: 26px;
     color: #007bff;
-} 
+}
 
 /*--------------------overview page-------------------------------------*/
+
 .result {
     font-size: 30px;
     font-weight: 200;
     color: #343a40;
-    }
+}
 
 
 .progress {
@@ -294,7 +330,7 @@ footer {
 .timeline-item {
     padding: 2em 2em 0em 2em;
     position: relative;
-    color: #fff;
+    color: #343a40;
     border-left: 1px solid;
 }
 
@@ -315,6 +351,7 @@ footer {
     padding: 0;
     margin: 0;
 }
+
 .timeline-item:after {
     width: 12px;
     height: 12px;
@@ -328,32 +365,35 @@ footer {
 }
 
 /*--------------------vision page-------------------------------------*/
-.debate ,
+
+.debate,
 .vision-heading {
     font-family: "Tinos", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
 }
+
 .center-form {
     padding: 10px;
     margin: 0 auto;
     max-width: 70%;
 }
+
 /*--------------------code format from Rosie mini project-----*/
 
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color:#dc3545;
+    color: #dc3545;
     background-color: #6c737d36;
 }
 
 @media(min-width: 992px) {
     .center-form {
-    padding: 30px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%;
-}
+        padding: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
