@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat:100,200,300,400,500,600,700|Tinos,100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Caveat:100,200,300,400,500,600,700|Tinos,100,200,300,400,500,600,700|Roboto,100,200,300,400|Arial,100,200,300,400');
 
-/*-----------------------paragraphs/text/Style---------------------------------------------*/
+/*-----------------------Code from inspect---------------------------------------------*/
 
 body {
     margin: 0;
@@ -13,6 +13,8 @@ body {
     background-color: #e9ecef;
 }
 
+/*-----------------------paragraphs/text/Style---------------------------------------------*/
+
 h1,
 h2,
 h3,
@@ -20,11 +22,6 @@ h4,
 h5 {
     margin: 0;
 }
-
-.title {
-    font-weight: 200;
-}
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -34,61 +31,7 @@ h5 {
     color: #fff;
 }
 
-.institutions-item {
-    font-size: 26px;
-    font-weight: 300;
-}
-
-/*................--------------------backgoundcolor/Style-------------------*/
-
-.bg-pic {
-    background-image: url("../images/pm.jpg");
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto;
-}
-
-
-.bg-over {
-    background-image: url("../images/eu.jpg");
-    background-repeat: no-repeat;
-    object-fit: cover;
-}
-
-.bg-color-institutions,
-.bg-color-members {
-    background-color: #f8f9fa;
-    width: 100%;
-}
-
-.bg-color-history {
-    background-color: #f8f9fa;
-}
-
-.bg-color-name-title {
-    background-image: url("../images/europe.jpg");
-    object-fit: cover; 
-    background-repeat: no-repeat; 
-}
-
-.menu-color-home {
-    background-color: #ffc107;
-}
-
-.menu-color-overview {
-    background-color: #007bff;
-}
-
-.menu-color-vision {
-    background-color: #687d90;
-}
-
-.menu-color-article {
-    background-color: rgba(0, 123, 255, .25);
-}
-
-
-/*-----------------------------------------------Header-----------------*/
+/*------------------------------------------Header---------------------------------------*/
 
 header {
     margin: 0;
@@ -156,22 +99,66 @@ header {
     
 }
 
+.institutions-item {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+/*--------------------backgoundcolor/Style----------------------------------------------------*/
+
+.bg-pic {
+    background-image: url("../images/pm.jpg");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.bg-over {
+    background-image: url("../images/eu.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.bg-color-institutions,
+.bg-color-members {
+    background-color: #f8f9fa;
+    width: 100%;
+}
+
+.bg-color-history {
+    background-color: #f8f9fa;
+}
+
+.bg-color-name-title {
+    background-image: url("../images/europe.jpg");
+    object-fit: cover; 
+    background-repeat: no-repeat; 
+}
+
+/*-------------------------------Menu Items-------------------------------------------------*/
+.menu-color-home {
+    background-color: #ffc107;
+}
+
+.menu-color-overview {
+    background-color: #007bff;
+}
+
+.menu-color-vision {
+    background-color: #687d90;
+}
+
+.menu-color-article {
+    background-color: rgba(0, 123, 255, .25);
+}
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
 
-/*-------------------------------Menu Items----------------------------*/
-
 .menucontainer {
     font-size: 0;
-}
-
-#nav {
-    margin: 0;
-}
-
-#nav li {
-    font-size: 14px;
 }
 
 .menu-item {
@@ -204,6 +191,17 @@ header {
     font-weight: bold
 }
 
+/*-------------------------Navbar--------------------------------------------------------*/
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+}
+
+/*------------------------------Section----------------------------------------------------*/
+
 .section-heading {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -233,7 +231,7 @@ header {
     transition-delay: 0.1s;
 }
 
-/*------------------------------------footer--------------------------------------*/
+/*------------------------------------footer-----------------------------------------------*/
 
 footer {
     background-color: #687d90;
@@ -285,7 +283,7 @@ footer {
 
 }
 
-/*--------------------Bootstrap icons----------------------------------*/
+/*--------------------Bootstrap icons--------------------------------------------------*/
 
 .member-icon {
     font-size: 26px;
@@ -297,7 +295,7 @@ footer {
     color: #007bff;
 }
 
-/*--------------------overview page-------------------------------------*/
+/*--------------------overview page-----------------------------------------------------*/
 
 .result {
     font-size: 30px;
@@ -364,7 +362,7 @@ footer {
     background-color: #fff;
 }
 
-/*--------------------vision page-------------------------------------*/
+/*--------------------vision page----------------------------------------------------------*/
 
 .debate,
 .vision-heading {
@@ -380,7 +378,7 @@ footer {
     max-width: 70%;
 }
 
-/*--------------------code format from Rosie mini project-----*/
+/*--------------------code format from Rosie mini project-------------------------------------*/
 
 button[type="submit"] {
     margin-top: 15px;
