@@ -22,6 +22,7 @@ h4,
 h5 {
     margin: 0;
 }
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -96,7 +97,7 @@ header {
 
 .subtitle-vision {
     padding-top: 20px;
-    
+
 }
 
 .institutions-item {
@@ -132,11 +133,12 @@ header {
 
 .bg-color-name-title {
     background-image: url("../images/europe.jpg");
-    object-fit: cover; 
-    background-repeat: no-repeat; 
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
 
 /*-------------------------------Menu Items-------------------------------------------------*/
+
 .menu-color-home {
     background-color: #ffc107;
 }
@@ -192,6 +194,7 @@ header {
 }
 
 /*-------------------------Navbar--------------------------------------------------------*/
+
 #nav {
     margin: 0;
 }
