@@ -5,13 +5,13 @@ The events surrounding Brexit are vast and constantly changing, so much so that 
 
 ## UX
 
-The project is an informative one for the academic or those who wish to explore Brexit o even public interest. The topic is simple to follow chronoligally
+The project is an informative one for the academic or those who wish to explore Brexit or even public interest. The topic is simple to follow chronoligally
 and can be understood by the average man/woman on the street. I have decided to make my project about Brexit and it's unfortunate journey to completion, if at all that goal is attainable. 
-Originally, in the project i had intended a timeline from the first referendum to join the EU in the 1970s taking you on a journey to the present state of affairs. Unfortunately, due to the size of the content i limited it from  the paasing of the Referendum Law passed by the Queen.
+Originally, in the project I had intended a timeline from the first referendum to joining the EU in the 1970s taking you on a journey to the present state of affairs. Unfortunately, due to the size of the content I limited it from  the passing of the Referendum Law passed by the Queen.
 
 ## Features
 
-The home page
+The Home page
 
 Displays the European Union Flag and details the different institutions of the EU. The display of the home page depicts a united  EU and its components. The contents of the page depicts the start of the journey.
 
@@ -26,18 +26,18 @@ Displays the British flag and depicts a Britain outside the EU inviting the user
 
 Download
 
-The user has the option to download a summary of Article 50 to gain a better understanding of exiting the EU              
+The user has the option to download a summary of Article 50 to gain a better understanding of exiting the EU.              
 
 ## Features left to Implement
 
-There are a multitude of features that can be applied such as links to forums, interactive simulations of before and after scenarios. Live chat video links. Live update feeds, subscriptions and memembership links to pro and against groups. Links to further reading or reasearch
+There are a multitude of features that can be applied such as links to forums, interactive simulations of before and after scenarios. Live chat video links. Live update feeds, subscriptions and membership links to pro and against groups. Links to further reading or reasearch.
 
 ## Technologies used
 
-HTML
-CSS
-Bootstrap
-Fontawesome
+HTML,
+CSS,
+Bootstrap,
+Fontawesome,
 
 ## Testing
 
