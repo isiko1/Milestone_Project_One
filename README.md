@@ -149,13 +149,12 @@ HTML checked through https://validator.w3.org/nu/#textarea
 
 ## Deployment
 
-Github
-
+There is a live version and a deployed version in Github. Several stages of the project development were deployed to Github and the one with the most current date is the final finished version.
 
 ## Credits
 
 ## Content
-
+The object fit css was recommended by my mentor. It has an error display next to the line where it has been used.  Something I will research later to find out the cause but at the moment it has contributed to the visual appearance.
 The text and timeline was copied from a bbc article.
 Aryicle 50 obtained from: https://www.europarl.europa.eu/RegData/etudes/BRIE/2016/577971/EPRS_BRI(2016)577971_EN.pdf
 
